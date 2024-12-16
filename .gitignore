@@ -1,0 +1,56 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.pdb
+
+# Editor backup and swap files
+*~
+*.swp
+*.swo
+
+# IDE-specific files
+.vscode/
+*.suo
+*.user
+*.ncb
+*.sdf
+
+# Build directories
+build/
+Debug/
+Release/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Hidden files (optional)
+.*
+!/.gitignore
+!.gitattributes
