@@ -1,0 +1,1 @@
+default_configuration_file = r"C:\ProgramData\ImageImprovement\config\appConfig.json"
