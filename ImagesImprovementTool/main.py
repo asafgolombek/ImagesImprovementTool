@@ -1,8 +1,11 @@
 from Utilitis.CmdArgumentsService import CmdArgumentsService
+from Utilitis.ConfigurationService import ConfigurationService
+
 def main():
     cmd_arguments_service = CmdArgumentsService()
+    configurationService = ConfigurationService(cmd_arguments_service)
 
-    print(cmd_arguments_service.getConfigurationFilePath())
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':

@@ -1,5 +1,6 @@
 import argparse
 from Consts import FilesConts
+
 class CmdArgumentsService:
     def __init__(self):
         self.parser = argparse.ArgumentParser(description="app cmd line arguments")
